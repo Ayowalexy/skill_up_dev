@@ -9,10 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'blur-bg': "url('/images/svgs/gradient.svg')",
+        'card': "url('/images/svgs/card.svg')",
+        'quote': "url('/images/svgs/quote.svg')"
       },
+    },
+    fontFamily: {
+      sans: ['var(--font-poppins)'],
+      mons: ['var(--font-montserrat)'],
     },
   },
   plugins: [],
